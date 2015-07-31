@@ -1,0 +1,22 @@
+{
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "UserApp\\Domain\\": "src/Domain",
+            "UserApp\\Api\\": "src/Api"
+        }
+    },
+    "require": {
+        "php": ">=5.3",
+        "nicolopignatelli/valueobjects": "3.*",
+        "predis/service-provider": "1.*",
+        "doctrine/dbal": "~2.3",
+        "igorw/config-service-provider": "~1.2",
+        "monolog/monolog": "~1.4",
+        "silex/silex": "~1.1",
+        "symfony/console": "~2.2",
+        "symfony/monolog-bridge": "~2.2",
+        "bashilbers/domain": "*",
+        "league/tactician": "0.*"
+    }
+}

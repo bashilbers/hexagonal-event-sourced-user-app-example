@@ -1,0 +1,12 @@
+{
+    "debug": true,
+    "monolog.name": "UserApp",
+    "monolog.logfile": "php://stdout",
+    "predis.parameters": "tcp://127.0.0.1:6379",
+    "predis.options": {
+        "prefix": "silex:",
+        "profile": "3.0"
+    },
+    "user_repo.file": "%storage_path%/users.json",
+    "event_store.directory": "%storage_path%/events"
+}
